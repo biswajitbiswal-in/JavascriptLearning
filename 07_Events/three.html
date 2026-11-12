@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello, Biswajit</h1>
+    <button id ="bt1">start</button>
+    <button id="bt2">stop</button>
+    
+
+</body>
+<script>
+    const date = function(){
+        console.log("rahul",new Date().toLocaleString());
+        
+    }
+    let interValId;
+    document.querySelector('#bt1').addEventListener('click',function(){
+     interValId = setInterval(date,2000)
+    })
+
+    document.querySelector('#bt2').addEventListener('click',function(){
+     
+        
+        clearInterval(interValId)
+    })
+    
+    
+</script>
+</html>
