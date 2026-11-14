@@ -16,3 +16,40 @@ accountEmail = "rahul@microsoft.com";
 accountPassword = "154789";
 accountCity = "Bangalore";
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
+
+
+
+
+
+//**************************************NEW*********************************************//
+
+
+
+// console.warn("hello")
+
+//this is the anpther way to print in javascript
+// process.stdout.write("hello")
+
+
+//objects
+
+let user = {
+    Name :"Biswajit Biswal",
+    rollNo:90,
+    loggedIn :true
+}
+console.log(user.Name);
+
+
+//Data types
+/*
+String
+Number
+Bolean
+Bigint
+
+undefined
+Null
+
+symbol
+*/

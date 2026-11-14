@@ -40,4 +40,16 @@ console.log(gameCounter)
 
 
 
+//comparision operaton
+
+let numb1  =  12
+let numb2 = 34
+
+console.log(numb1 == numb2);
+console.log(numb1 != numb2);
+console.log(numb1 <= numb2);
+console.log(numb1 >= numb2);
+
+
+
 
