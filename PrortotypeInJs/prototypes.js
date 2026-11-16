@@ -6,8 +6,8 @@ let lenevo = {
 }
 let tomHardware = {}
 
-// console.log(`computer`,computer.__proto__);
-// console.log(`lenevo`,lenevo.__proto__);
+console.log(`computer`,computer.__proto__);
+console.log(`lenevo`,lenevo.__proto__);
 
 let genericCar = {
     tyre:4
